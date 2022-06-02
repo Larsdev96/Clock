@@ -1,0 +1,82 @@
+@font-face {
+    font-family: digital;
+    src: url(/fonts/retro_computer_personal_use.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: digital;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 480px){
+    * {
+        font-size: 1.1rem;
+    }
+}
+
+body {
+    background-color: #1B1212;
+    margin: 0;
+}
+
+.quote {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.containerTime {
+    display: flex;
+    height: 50vh;
+}
+
+.year {
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.months {
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.days {
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.hours {
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.minutes {
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.seconds {
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
